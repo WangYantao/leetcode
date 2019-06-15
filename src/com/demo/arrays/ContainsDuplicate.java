@@ -1,5 +1,6 @@
 package com.demo.arrays;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,13 +17,23 @@ public class ContainsDuplicate {
         System.out.println(containsDuplicate.containsDuplicate(nums));
     }
 
+    //自己实现 使用 Set 集合
+//    public boolean containsDuplicate(int[] nums) {
+//        Set<Integer> set = new HashSet<>();
+//        for (int i = 0; i < nums.length; i++){
+//            if (set.contains(nums[i])){
+//                return true;
+//            }
+//            set.add(nums[i]);
+//        }
+//        return false;
+//    }
+
+    //先排序，然后判断最大值与最小值的差是否大于元素个数
     public boolean containsDuplicate(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for (int i = 0; i < nums.length; i++){
-            if (set.contains(nums[i])){
-                return true;
-            }
-            set.add(nums[i]);
+        Arrays.sort(nums);
+        if (nums[nums.length - 1] - nums[0] + 1 < nums.length){
+            return true;
         }
         return false;
     }
