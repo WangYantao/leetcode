@@ -9,3 +9,4 @@
 * [只出现一次的数字](./src/com/demo/arrays/SingleNumber.java)
 * [两个数组的交集 II](./src/com/demo/arrays/InterSect.java)
 * [加一](./src/com/demo/arrays/PlusOne.java)
+* [移动零](./src/com/demo/arrays/MoveZeroes.java)
