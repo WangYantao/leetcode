@@ -27,3 +27,4 @@
 
 * [反转字符串](./src/com/demo/strings/ReverseString.java)
 * [反转整数](./src/com/demo/strings/ReverseInteger.java)
+* [字符串中的第一个唯一字符](./src/com/demo/strings/FirstUniqChar.java)
