@@ -26,3 +26,4 @@
 #### 字符串相关
 
 * [反转字符串](./src/com/demo/strings/ReverseString.java)
+* [反转整数](./src/com/demo/strings/ReverseInteger.java)
