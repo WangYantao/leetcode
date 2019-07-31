@@ -30,3 +30,4 @@
 * [字符串中的第一个唯一字符](./src/com/demo/strings/FirstUniqChar.java)
 * [有效的字母异位词](./src/com/demo/strings/Anagram.java)
 * [验证回文字符串](./src/com/demo/strings/Palindrome.java)
+* [字符串转换整数 (atoi)](./src/com/demo/strings/Atoi.java)
