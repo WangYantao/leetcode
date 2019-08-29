@@ -1,5 +1,9 @@
 ### leetcode刷题的一些记录
 
+#### 查找
+
+* [二分查找](./src/com/demo/search/BinarySearch.java)
+
 #### 数组相关
 
 常用解题思路：
