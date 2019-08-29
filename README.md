@@ -1,8 +1,10 @@
 ### leetcode刷题的一些记录
 
-#### 查找
+#### 排序/查找
 
 * [二分查找](./src/com/demo/search/BinarySearch.java)
+* [选择排序](./src/com/demo/sort/SelectionSort.java)
+* [快速排序](./src/com/demo/sort/QuickSort.java)
 
 #### 数组相关
 
